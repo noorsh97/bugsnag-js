@@ -192,6 +192,7 @@ steps:
         - --app=build/rn0.60.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
     env:
@@ -212,6 +213,7 @@ steps:
         - --app=build/rn0.60.ipa
         - --farm=bs
         - --device=IOS_12
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
     env:
@@ -232,6 +234,7 @@ steps:
         - --app=build/rn0.63.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
     env:
@@ -252,6 +255,7 @@ steps:
         - --app=build/rn0.63.ipa
         - --farm=bs
         - --device=IOS_12
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
     env:
@@ -272,6 +276,7 @@ steps:
         - --app=build/r_navigation_0.60.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
         - features/navigation.feature
@@ -292,6 +297,7 @@ steps:
   #       - --app=build/r_navigation_0.60.ipa
   #       - --farm=bs
   #       - --device=IOS_12
+  #       - --a11y-locator
   #       - --username=$BROWSER_STACK_USERNAME
   #       - --access-key=$BROWSER_STACK_ACCESS_KEY
   #       - features/navigation.feature
@@ -311,6 +317,7 @@ steps:
         - --app=build/r_navigation_0.63.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
         - features/navigation.feature
@@ -331,6 +338,7 @@ steps:
   #       - --app=build/r_navigation_0.63.ipa
   #       - --farm=bs
   #       - --device=IOS_13
+  #       - --a11y-locator
   #       - --username=$BROWSER_STACK_USERNAME
   #       - --access-key=$BROWSER_STACK_ACCESS_KEY
   #       - features/navigation.feature
@@ -350,6 +358,7 @@ steps:
         - --app=build/r_native_navigation_0.60.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
         - features/navigation.feature
@@ -370,6 +379,7 @@ steps:
   #       - --app=build/r_native_navigation_0.60.ipa
   #       - --farm=bs
   #       - --device=IOS_13
+  #       - --a11y-locator
   #       - --username=$BROWSER_STACK_USERNAME
   #       - --access-key=$BROWSER_STACK_ACCESS_KEY
   #       - features/navigation.feature
@@ -389,6 +399,7 @@ steps:
         - --app=build/r_native_navigation_0.63.apk
         - --farm=bs
         - --device=ANDROID_9_0
+        - --a11y-locator
         - --username=$BROWSER_STACK_USERNAME
         - --access-key=$BROWSER_STACK_ACCESS_KEY
         - features/navigation.feature
@@ -409,6 +420,7 @@ steps:
   #       - --app=build/r_native_navigation_0.63.ipa
   #       - --farm=bs
   #       - --device=IOS_13
+  #       - --a11y-locator
   #       - --username=$BROWSER_STACK_USERNAME
   #       - --access-key=$BROWSER_STACK_ACCESS_KEY
   #       - features/navigation.feature
