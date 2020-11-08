@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Bugsnag" => "platforms@bugsnag.com" }
   s.ios.deployment_target = '7.0'
   s.tvos.deployment_target = '13.0'
-  s.source       = { :git => "https://github.com/noorsh97/bugsnagag-js.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/noorsh97/bugsnag-js.git", :tag => "v#{s.version}" }
   s.source_files = "ios/BugsnagReactNative/**/*.{h,m}",
                    "ios/vendor/bugsnag-cocoa/**/*.{h,mm,m,cpp,c}",
   s.public_header_files = "ios/vendor/bugsnag-cocoa/{#{bugsnag_cocoa_public_header_files.join(',')}}"
